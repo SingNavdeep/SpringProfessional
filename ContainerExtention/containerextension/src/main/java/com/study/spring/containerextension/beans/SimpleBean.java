@@ -7,6 +7,11 @@ import org.springframework.context.Lifecycle;
 
 public class SimpleBean implements Lifecycle
 {
+	public void SimpleBean()
+	{
+		System.out.println("Simple Bean constructor called.");
+	}
+	
 	@PostConstruct
 	public void after()
 	{

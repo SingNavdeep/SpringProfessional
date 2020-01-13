@@ -17,7 +17,7 @@ public class ContainerExtensionConfig
 	}
 	
 	@Bean
-	public FactoryPostProcessorBean getFactoryPostProcessorBean()
+	public static FactoryPostProcessorBean getFactoryPostProcessorBean()
 	{
 		return new FactoryPostProcessorBean();
 	}
